@@ -1,19 +1,21 @@
-һ������github��
-��������GitHub��
-����֮ǰ��Ҫ��Ŀ���ļ�(.git)��Git Bash.
-git clone "���Ŀ��github��ַ"
-˵�������ڵ�ǰgit����λ�ô���һ����github������ͬ���ļ��У�����.git�ļ�
-������"��Ҫ�ϴ����ļ����ļ���"��������.gitͬ����Ŀ¼
-�ġ����뵽.git�ļ�·��-.git��������Ҫ�ϴ����ļ�ͬĿ¼
-cd �ļ�������/
-�塢����Ҫ�ύ���ʼۻ��ļ���- .����˼�Ǳ�ʾ�����ļ����������ӣ���ֻ���ӵ����ļ�����.�滻�ɶ�Ӧ�ļ�������
+一、创建github库
+二、链接GitHub库
+链接之前需要到目标文件(.git)打开Git Bash.
+git clone "您的库的github地址"
+说明：会在当前git所在位置创建一个与github库名相同的文件夹，包含.git文件
+三、将"需要上传的文件或文件夹"拷贝到与.git同级别目录
+四、进入到.git文件路径-.git就是与需要上传的文件同目录
+cd 文件夹名字/
+五、添加要提交的问价或文件夹- .的意思是表示所有文件都进行添加，若只添加单个文件，将.替换成对应文件名即可
 git add .
-���������ύ
-git commit -m "�ύ�İ汾��ע"
-�ߡ�Ȩ����֤
+六、本地提交
+git commit -m "提交的版本或备注"
+七、权限验证
 git config --global user.email "you@example.com"
-�ˡ��ظ��塢������
-�š��ϴ���github��
+八、重复五、六步骤
+九、上传到github库
 git push origin master
-ʮ����֤�˺�
-ʮһ����֤����
+十、验证账号
+十一、验证密码
+
+超人git地址：https://github.com/yjmyzz
